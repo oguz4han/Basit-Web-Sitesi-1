@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar img{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(images/Wallpaper-2.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.navbar{
+    background-color: rgba(192, 175, 175, 0.7);
+    border-radius: 22px;
+    width: 90%;
+    margin: auto;
+    padding: 32px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: inline-block ;
+    cursor: pointer;
+    list-style: none;
+    margin: 0px 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 2px red;
+    transition: ease-in-out all 0.7s;
+}
+
+.content{
+    width: 100%;
+    top: 40%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 0 0 10px red;
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    margin: 20px auto;
+}
+.content button{
+    width: 175px;
+    padding: 15px 0;
+    border-radius: 30px;
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    background-color: #6166b3;
+    transform: scale(0.8);
+    transition: ease all 1s;
+
+}
+.content button:hover{
+    transform: scale(1);
+}
